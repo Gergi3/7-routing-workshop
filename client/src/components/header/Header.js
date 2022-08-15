@@ -9,12 +9,12 @@ export const Header = () => {
             <nav>
                 <Link to="/games/catalog">All games</Link>
                 <div id="user">
-                    <a href="/games/create">Create Game</a>
-                    <a href="/logout">Logout</a>
+                    <Link to="/games/create">Create Game</Link>
+                    <Link to="/logout">Logout</Link>
                 </div>
                 <div id="guest">
-                    <a href="/login">Login</a>
-                    <a href="/register">Register</a>
+                    <Link to="/login">Login</Link>
+                    <Link to="/register">Register</Link>
                 </div>
             </nav>
         </header>
