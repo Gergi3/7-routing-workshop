@@ -1,11 +1,13 @@
+import { Link } from "react-router-dom";
+
 export const Header = () => {
     return (
         <header>
             <h1>
-                <a className="home" href="/">GamesPlay</a>
+                <Link className="home" to="/">GamesPlay</Link>
             </h1>
             <nav>
-                <a href="/games">All games</a>
+                <Link to="/games/catalog">All games</Link>
                 <div id="user">
                     <a href="/games/create">Create Game</a>
                     <a href="/logout">Logout</a>
